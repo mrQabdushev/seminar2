@@ -1,14 +1,9 @@
-class Jic:
-    students = 25
-    teacher = 'Abylaikhan'
-    def E_group(self):
-        print("Number of students in 1E group is",self.students)
+from myclass import Jic
 
-    def monkeys(self):
-        self.teacher = "Yerdaulet"
-        print("Teacher of monkeys is",self.teacher)
+a = Jic(15, "Ertik")
+a.monkeys()
+a.E_group()
 
-if __name__ == "__main__":
-    p = Jic()
-    p.E_group()
-    p.monkeys()
+b = Jic(10, "Vasya")
+b.monkeys()
+b.E_group()
